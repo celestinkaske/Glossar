@@ -37,8 +37,7 @@ main {
     width: 100%;
 }
 
-.search-bar label {
-}
+.search-bar label {}
 
 .search-bar input {
     all: unset;
@@ -87,6 +86,15 @@ footer {
     max-width: 800px;
     width: 100%;
     margin: auto;
+    /* ---to be discussed to place last item--- */
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
 /* -------- */
@@ -101,19 +109,15 @@ a {
     text-decoration: none;
 }
 
-.hide {
-    display: none;
-}
-
 .wrapper {
     width: 1170px;
     margin: auto;
     margin-top: 45px;
 }
 
-
-#result {
-    font-size: 12px;
+#last-modified-date {
+    color: lightslategray;
+    font-size: 14px;
 }
 
 header {
@@ -126,39 +130,15 @@ header {
     font-weight: bold;
 }
 
-
-
-dt {
-    margin-top: 20px;
-    margin-left: 143px;
-    margin-right: 143px;
-    background-color: ;
-    font-size: 18px;
-    font-weight: bold;
-
-}
-
-dd {
-    margin-top: 20px;
-    margin-left: 144px;
-    margin-right: 144px;
-    margin-bottom: 12px;
-    background-color: re;
-    font-size: 15px;
-}
-
 #websitelinks {
-    margin-left: 144px;
-    margin-top: 10px;
+    display: grid;
+    margin-top: 20px;
     font-size: 15px;
 }
+
+
 
 #websitelinks a {
     color: darkgoldenrod;
     text-decoration: wavys;
-}
-
-h2 {
-    margin-left: 144px;
-    margin-bottom: ;
 }
