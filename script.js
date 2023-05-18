@@ -24,6 +24,7 @@ input.addEventListener('input', function (event) {
 
     console.log(firstCharacter)
 
+    // hide letter sections
     alphabet.forEach((letter) => {
         const sectionElement = document.getElementById(letter)
         if (letter === firstCharacter || isEmpty) {
@@ -33,6 +34,7 @@ input.addEventListener('input', function (event) {
         }
     })
 
+    // hide terms in sections
     terms.forEach((item) => {
         const itemExists = item.term.toLowerCase().startsWith(currentValue.toLowerCase())
         const element = document.getElementById(item.term)
@@ -46,7 +48,7 @@ input.addEventListener('input', function (event) {
 
 })
 
-
+// place formatted last modified date
 const date = new Date(document.lastModified);
 const formattedDate = new Intl.DateTimeFormat("de-DE", {
     weekday: "long",
