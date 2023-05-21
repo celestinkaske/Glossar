@@ -104,8 +104,12 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 2;
+}
+
 #websitelinks {
-    color: red;
+    color: purple;
     text-decoration: underline;
 }
 
