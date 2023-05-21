@@ -104,8 +104,13 @@ a {
     text-decoration: none;
 }
 
+#websitelinks {
+    color: red;
+    text-decoration: underline;
+}
+
 .section>a {
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
@@ -116,7 +121,7 @@ a {
 }
 
 #last-modified-date {
-    color: lightslategray;
+    color: grey;
     font-size: 14px;
 }
 

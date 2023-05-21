@@ -1,16 +1,20 @@
 const terms = [
     { term: "API" },
-    { term: "API1" },
-    { term: "API2" },
-    { term: "API3" },
+    { term: "Ad Impression" },
+    { term: "Agile Softwareentwicklung" },
+    { term: "Affiliate Marketing" },
     { term: "Backend" },
+    { term: "Blockchain" },
+    { term: "Brute Force" },
     { term: "Cross-Docking" },
+    { term: "Conversion Rate" },
+    { term: "Cyberheist" },
     { term: "Data-Driven-Marketing" },
     { term: "Data-Warehouse" },
-    { term: "HTTPS" },
+    { term: "Depot" },
 ]
 
-const alphabet = ['A', 'B', 'C', 'D', 'H']
+const alphabet = ['A', 'B', 'C', 'D']
 
 
 
