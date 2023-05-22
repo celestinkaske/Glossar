@@ -154,3 +154,28 @@ header {
     color: darkgoldenrod;
     text-decoration: wavys;
 }
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: purple;
+    text-decoration: none;
+}
