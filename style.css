@@ -145,7 +145,10 @@ header {
     font-size: 15px;
 }
 
-
+#result {
+    color: grey;
+    font-size: 14px;
+}
 
 #websitelinks a {
     color: darkgoldenrod;
