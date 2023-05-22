@@ -5,7 +5,7 @@ const terms = [
     { term: "Affiliate Marketing" },
     { term: "Backend" },
     { term: "Blockchain" },
-    { term: "Brute Force" },
+    { term: "Brute-Force" },
     { term: "Cross-Docking" },
     { term: "Conversion Rate" },
     { term: "Cyberheist" },
